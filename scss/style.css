@@ -347,4 +347,15 @@ body {
     margin: 0 auto;
   }
 }
+
+@media (min-width: 1024px) {
+  .top-slider__item {
+    min-height: 618px;
+  }
+  .top-slider__title {
+    padding-top: 101px;
+    font-size: 84px;
+    line-height: 84px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
