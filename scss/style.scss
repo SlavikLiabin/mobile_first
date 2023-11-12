@@ -339,23 +339,23 @@ body {
   color: #fff;
   text-align: center;
   &__title {
-    font-family: "Roboto-Medium";
-    font-weight: 500;
+    @extend %roboto-500;
     font-size: 24px;
     line-height: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
   &__text {
-    color: #fff;
-    text-align: center;
-    font-family: "Dosis-Light";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 18px; /* 112.5% */
+    margin-bottom: 40px;
   }
   &__btn {
-    color: #fff;
+    padding: 16px 15px;
+    background-color: $bg-color;
+    color: $accent;
+    font-size: 18px;
+    @extend %roboto-500;
     cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    text-transform: uppercase;
   }
 }
